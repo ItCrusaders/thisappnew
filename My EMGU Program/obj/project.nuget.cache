@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zzh9Vb2GqUZVHjEn55ZVeYi8PCwCJ1gIHBp9zF/gsGMUXW5B64avXwU4rmkRjZBQor+JK5ypQBiZMY6r1DuX0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\My EMGU Program.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Peter Pc\\.nuget\\packages\\magick.net-q16-x64\\9.1.1\\magick.net-q16-x64.9.1.1.nupkg.sha512",
+    "C:\\Users\\Peter Pc\\.nuget\\packages\\magick.net.core\\9.1.1\\magick.net.core.9.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2c7f154c-52d4-4dcb-96d3-a76e26afbf51": {
+      "ProjectGuid": "2c7f154c-52d4-4dcb-96d3-a76e26afbf51",
+      "DisplayName": "My EMGU Program",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,235 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0,Profile=Client": {
+      "Magick.NET-Q16-x64/9.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Magick.NET.Core": "9.1.1"
+        },
+        "compile": {
+          "lib/net20/Magick.NET-Q16-x64.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Magick.NET-Q16-x64.dll": {}
+        },
+        "build": {
+          "build/net20/Magick.NET-Q16-x64.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q16-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Magick.NET.Core/9.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Magick.NET.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Magick.NET.Core.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0,Profile=Client/win": {
+      "Magick.NET-Q16-x64/9.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Magick.NET.Core": "9.1.1"
+        },
+        "compile": {
+          "lib/net20/Magick.NET-Q16-x64.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Magick.NET-Q16-x64.dll": {}
+        },
+        "build": {
+          "build/net20/Magick.NET-Q16-x64.targets": {}
+        }
+      },
+      "Magick.NET.Core/9.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Magick.NET.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Magick.NET.Core.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0,Profile=Client/win-x64": {
+      "Magick.NET-Q16-x64/9.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Magick.NET.Core": "9.1.1"
+        },
+        "compile": {
+          "lib/net20/Magick.NET-Q16-x64.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Magick.NET-Q16-x64.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/Magick.Native-Q16-x64.dll": {}
+        },
+        "build": {
+          "build/net20/Magick.NET-Q16-x64.targets": {}
+        }
+      },
+      "Magick.NET.Core/9.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Magick.NET.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Magick.NET.Core.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0,Profile=Client/win-x86": {
+      "Magick.NET-Q16-x64/9.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Magick.NET.Core": "9.1.1"
+        },
+        "compile": {
+          "lib/net20/Magick.NET-Q16-x64.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Magick.NET-Q16-x64.dll": {}
+        },
+        "build": {
+          "build/net20/Magick.NET-Q16-x64.targets": {}
+        }
+      },
+      "Magick.NET.Core/9.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Magick.NET.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Magick.NET.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Magick.NET-Q16-x64/9.1.1": {
+      "sha512": "988S3kSR5ngxGhP3C12c8+i9mBKA6APLv4YbVRQMTE4m7MlnJfhktXK12bHWSR7oEfCdSZdrAjehP/mRSWZMiQ==",
+      "type": "package",
+      "path": "magick.net-q16-x64/9.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Magick.NET.icon.png",
+        "Notice.linux-musl.txt",
+        "Notice.linux.txt",
+        "Notice.osx.txt",
+        "Notice.win.txt",
+        "build/net20/Magick.NET-Q16-x64.targets",
+        "lib/net20/Magick.NET-Q16-x64.dll",
+        "lib/net20/Magick.NET-Q16-x64.xml",
+        "lib/netstandard20/Magick.NET-Q16-x64.dll",
+        "lib/netstandard20/Magick.NET-Q16-x64.xml",
+        "lib/netstandard21/Magick.NET-Q16-x64.dll",
+        "lib/netstandard21/Magick.NET-Q16-x64.xml",
+        "magick.net-q16-x64.9.1.1.nupkg.sha512",
+        "magick.net-q16-x64.nuspec",
+        "runtimes/linux-musl-x64/native/Magick.Native-Q16-x64.dll.so",
+        "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so",
+        "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib",
+        "runtimes/win-x64/native/Magick.Native-Q16-x64.dll"
+      ]
+    },
+    "Magick.NET.Core/9.1.1": {
+      "sha512": "5d2XjadYw8y0+fYp/6APYe1APdS8TdBnRynpVe9tO7cJi5kwddRyIAT/rkENGp3G68SbqKhJrSoliUnD0lj0NQ==",
+      "type": "package",
+      "path": "magick.net.core/9.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Copyright.txt",
+        "Magick.NET.icon.png",
+        "lib/net20/Magick.NET.Core.dll",
+        "lib/net20/Magick.NET.Core.xml",
+        "lib/netstandard20/Magick.NET.Core.dll",
+        "lib/netstandard20/Magick.NET.Core.xml",
+        "lib/netstandard21/Magick.NET.Core.dll",
+        "lib/netstandard21/Magick.NET.Core.xml",
+        "magick.net.core.9.1.1.nupkg.sha512",
+        "magick.net.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0,Profile=Client": [
+      "Magick.NET-Q16-x64 >= 9.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Peter Pc\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\My EMGU Program.csproj",
+      "projectName": "My EMGU Program",
+      "projectPath": "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\My EMGU Program.csproj",
+      "packagesPath": "C:\\Users\\Peter Pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Peter Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net40-client"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "net40-client": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net40-client": {
+        "dependencies": {
+          "Magick.NET-Q16-x64": {
+            "target": "Package",
+            "version": "[9.1.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

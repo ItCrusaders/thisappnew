@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\My EMGU Program.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\My EMGU Program.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\My EMGU Program.csproj",
+        "projectName": "My EMGU Program",
+        "projectPath": "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\My EMGU Program.csproj",
+        "packagesPath": "C:\\Users\\Peter Pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Peter Pc\\Downloads\\A_Little_More_Image_Processing\\My Advanced EMGU Program\\My Advanced EMGU Program\\My EMGU Program\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Peter Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40-client"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net40-client": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net40-client": {
+          "dependencies": {
+            "Magick.NET-Q16-x64": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
