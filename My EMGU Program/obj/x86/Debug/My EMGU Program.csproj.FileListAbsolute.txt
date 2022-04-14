@@ -106,13 +106,16 @@ H:\Live Mesh\Publication\My Advanced EMGU Program\My Advanced EMGU Program\My EM
 H:\Live Mesh\Publication\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\GenerateResource.read.1.tlog
 H:\Live Mesh\Publication\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\Magick.Native-Q16-x64.dll
+C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\opencv_core220.dll
+C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\opencv_imgproc220.dll
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\My EMGU Program.exe.config
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\My EMGU Program.exe
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\My EMGU Program.pdb
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\Magick.NET-Q16-x64.dll
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\Magick.NET.Core.dll
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My EMGU Program.csproj.AssemblyReference.cache
-C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.Form1.resources
+C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.TypeSelector.resources
+C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.ui.Form1ds.resources
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.Form2.resources
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.Properties.Resources.resources
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My EMGU Program.csproj.GenerateResource.cache
@@ -120,7 +123,5 @@ C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Prog
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My EMGU Program.csproj.CopyComplete
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My EMGU Program.exe
 C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My EMGU Program.pdb
-C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.TypeSelector.resources
-C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\opencv_core220.dll
-C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\bin\Debug\opencv_imgproc220.dll
-C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.ui.Form1ds.resources
+C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.ui.Form1.resources
+C:\Users\Peter Pc\Downloads\A_Little_More_Image_Processing\My Advanced EMGU Program\My Advanced EMGU Program\My EMGU Program\obj\x86\Debug\My_EMGU_Program.Form1oo.resources

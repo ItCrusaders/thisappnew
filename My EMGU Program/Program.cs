@@ -1,7 +1,5 @@
 ﻿using My_EMGU_Program.ui;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace My_EMGU_Program
@@ -16,7 +14,7 @@ namespace My_EMGU_Program
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2());
+            Application.Run(new Form1());
         }
     }
 }

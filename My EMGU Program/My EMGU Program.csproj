@@ -66,17 +66,23 @@
     <Compile Include="models\Object2d.cs" />
     <Compile Include="models\Shapes.cs" />
     <Compile Include="repository\FileRepository.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Form1oo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form1oo.Designer.cs">
+      <DependentUpon>Form1oo.cs</DependentUpon>
     </Compile>
     <Compile Include="helpers\TypeSelector.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="helpers\TypeSelector.Designer.cs">
       <DependentUpon>TypeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="ui\Form1ds.cs">
       <SubType>Form</SubType>
@@ -98,11 +104,14 @@
     <Compile Include="ScaledPictureBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form1oo.resx">
+      <DependentUpon>Form1oo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="helpers\TypeSelector.resx">
       <DependentUpon>TypeSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ui\Form1ds.resx">
       <DependentUpon>Form1ds.cs</DependentUpon>
@@ -118,6 +127,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
@@ -131,6 +141,36 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icon\add.png" />
+    <Content Include="icon\area.png" />
+    <Content Include="icon\AUTO AREA icon.png" />
+    <Content Include="icon\AUTO COUNT icon.jpg" />
+    <Content Include="icon\CLOUD SAVE icon.jpg" />
+    <Content Include="icon\continue.jpeg" />
+    <Content Include="icon\digitize.jpeg" />
+    <Content Include="icon\DIMENSION icon.jpg" />
+    <Content Include="icon\fit.jpeg" />
+    <Content Include="icon\ftm.png" />
+    <Content Include="icon\HATCH icon.png" />
+    <Content Include="icon\ico1.PNG" />
+    <Content Include="icon\ico2.2.PNG" />
+    <Content Include="icon\ico2.PNG" />
+    <Content Include="icon\ico3.PNG" />
+    <Content Include="icon\ico4.PNG" />
+    <Content Include="icon\ico5.PNG" />
+    <Content Include="icon\ico6.PNG" />
+    <Content Include="icon\ico7.PNG" />
+    <Content Include="icon\ITEM COUNT icon.JPG" />
+    <Content Include="icon\LENGTH icon.png" />
+    <Content Include="icon\OPEN icon.jpg" />
+    <Content Include="icon\pan.png" />
+    <Content Include="icon\SCALE icon.jpg" />
+    <Content Include="icon\sketch.png" />
+    <Content Include="icon\SLOPE AREA icon.png" />
+    <Content Include="icon\SLOPE LENGTH icon.jpg" />
+    <Content Include="icon\VOLUMNE icon.jpg" />
+    <Content Include="icon\ZOOM IN.png" />
+    <Content Include="icon\ZOOM OUT.png" />
     <Content Include="opencv_core220.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

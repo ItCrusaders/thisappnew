@@ -19,6 +19,18 @@ namespace My_EMGU_Program.models
             lines.Add(line);
         }
 
+      
+        public Object2d getObject2dFrom()
+        {
+            Object2d t = new Object2d();
+            t.type = this.type;
+            t.lines = this.lines;
+            t.points = this.points;
+            t.color = this.color;
+
+            return t;
+
+        }
         
         public List<Lines> getLines()
         {
@@ -33,7 +45,7 @@ namespace My_EMGU_Program.models
         public double calcArea()
         {
             double area = 0;
-            Point startPoint = lines[0].getLines()[0];
+            Point startPoint = this.lines[0].getLines()[0];
             int i, j;
 
 
@@ -101,7 +113,7 @@ namespace My_EMGU_Program.models
 
         public void addPoints(Point line)
         {
-            points.Add(line);
+            this.points.Add(line);
         }
 
     }

@@ -301,7 +301,7 @@ namespace My_EMGU_Program
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 mm = new Form1();
+            Form1oo mm = new Form1oo();
             mm.Show();
         }
 
@@ -407,13 +407,52 @@ namespace My_EMGU_Program
                     }
                     else if (checkBox3.Checked)
                     {
-                        Pen d = new Pen(areas[activeItem].color,2);
+                        Pen d = new Pen(areas[activeItem].color,5);
+                        using (var path = new GraphicsPath())
+                        {
+
+                            Object2d t = new Object2d();
+                            //   t.type = _22d.type;
+
+                            areas[activeItem].lines.ForEach(line => {
+                            t.lines.Add(line); }
+                            );
+
+                            if (t.getAllPoints().Count > 1)
+                            {
+                                
+
+
+                                float scalenoww2 = image_PCBX.Image.Width / dms.scalew;
+                                float scalenowh2 = image_PCBX.Image.Height / dms.scaleh;
+                                float xs2 = dms.userwidth * scalenoww2 / dms.iwidth;
+                                float ys2 = dms.userwidth * scalenowh2 / dms.iwidth;
+                                Lines la2 = new Lines();
+                                la2.setPoint1(new Point((int)x0, (int)y0), 0, 0);
+                                la2.setPoint2(new Point((int)x1, (int)y1), xs2, ys2);
+                                t.addLine(la2);
+
+                                List<Point> r = t.getAllPoints();
+                                Point[] k = r.ToArray();
+                                path.AddPolygon(k);
+
+                                using (Graphics gra = Graphics.FromImage(bm))
+                                {
+                                    using (var brush = new SolidBrush(Color.FromArgb(50,189,63,20)))
+                                    {
+                                        gra.FillPath(brush, path);
+                                    }
+                                }
+                            }
+                        }
+                        
                         gr.DrawLine(d, new Point((int)x0, (int)y0), new Point((int)x1, (int)y1));
                     }
                     else if (checkBox2.Checked)
                     {
 
-                        Pen d = new Pen(areas[activeItem].color,2);
+                        Pen d = new Pen(areas[activeItem].color,5);
+
                         gr.DrawLine(d, new Point((int)x0, (int)y0), new Point((int)x1, (int)y1));
                     }
                     using (Brush b = new SolidBrush(Color.FromArgb(150, Color.White)))
@@ -483,18 +522,8 @@ namespace My_EMGU_Program
 
                 MessageBox.Show("area = " + area);
                 listAreas.Items[selectedIndex] +=" "+ area;
-                using (var path = new GraphicsPath())
-                {
-                    path.AddPolygon(_2d.getAllPoints().ToArray());
+               
 
-                    using (Graphics gr = Graphics.FromImage(drawBitmap))
-                    {
-                        using (var brush = new SolidBrush(Color.Black))
-                        {
-                            gr.FillPath(brush, path);
-                        }
-                    }
-                }
             }
             else if (checkBox2.Checked)
             {
@@ -541,7 +570,7 @@ namespace My_EMGU_Program
                     {
                         if (dms.scalew!=0.0)
                         {
-                            Pen p = new Pen(Color.BlueViolet,2);//Pens.BlueViolet;
+                            Pen p = new Pen(Color.BlueViolet,5);//Pens.BlueViolet;
                           //  p.Width = 20;
                             gr.DrawLine(p, new Point((int)x0, (int)y0), new Point((int)x1, (int)y1));
                           
@@ -653,7 +682,7 @@ namespace My_EMGU_Program
                             //        y0 = y1;
                         }
             //            _2d.addPoints(new Point((int)x1, (int)y1));
-                        gr.DrawLine(new Pen(_2d.color,2), new Point((int)x0, (int)y0), new Point((int)x1, (int)y1));
+                        gr.DrawLine(new Pen(_2d.color,5), new Point((int)x0, (int)y0), new Point((int)x1, (int)y1));
                        
                         x0 = x1;
                         y0 = y1;
