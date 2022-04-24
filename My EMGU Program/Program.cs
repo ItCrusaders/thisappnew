@@ -4,6 +4,7 @@ using System.Windows.Forms;
 
 namespace My_EMGU_Program
 {
+
     static class Program
     {
         /// <summary>
